@@ -9,10 +9,10 @@ static const Block blocks[] = {
   {"", "[ -d /sys/class/power_supply/BAT0 ] && /home/atego/dotfiles/scripts/.config/scripts/statusbar/battery", 60, 0},
 
   /* Deafult scripts */
-  {"",        "/home/atego/dotfiles/scripts/.config/scripts/statusbar/musicplaying",  30,               11},
+  {"",        "/home/atego/dotfiles/scripts/.config/scripts/statusbar/musicplaying",  10,               11},
   {"",        "/home/atego/dotfiles/scripts/.config/scripts/statusbar/screenrecord",   0,               12},
-	{"",        "/home/atego/dotfiles/scripts/.config/scripts/statusbar/weather",      600,               15},
-	{"",        "/home/atego/dotfiles/scripts/.config/scripts/statusbar/volume",       300,               10},
+	{"",        "/home/atego/dotfiles/scripts/.config/scripts/statusbar/weather",      180,               15},
+	{"",        "/home/atego/dotfiles/scripts/.config/scripts/statusbar/volume",         0,               10},
 	{"",        "/home/atego/dotfiles/scripts/.config/scripts/statusbar/timedate",      30,                0},
 };
 
