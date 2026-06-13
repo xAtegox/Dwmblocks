@@ -6,7 +6,7 @@ static const Block blocks[] = {
 
     {"",        HOME "/dotfiles/scripts/.config/scripts/statusbar/musicplaying",   0,                11},
     {"",        HOME "/dotfiles/scripts/.config/scripts/statusbar/screenrecord",   0,                12},
-    {"",        HOME "/dotfiles/scripts/.config/scripts/statusbar/weather",      180,                15},
+  //  {"",        HOME "/dotfiles/scripts/.config/scripts/statusbar/weather",      180,                15},
     /* For the inline shell checks, you break the string just like you did for SHCMD in dwm */
     {"", "[ $(cat /sys/class/net/e*/carrier 2>/dev/null | grep -c 1) -eq 0 ] && " HOME "/dotfiles/scripts/.config/scripts/statusbar/wifi", 30, 0},
     {"",        HOME "/dotfiles/scripts/.config/scripts/statusbar/volume",           0,                10},
